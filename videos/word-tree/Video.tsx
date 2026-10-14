@@ -1,67 +1,60 @@
 import React from "react";
 import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { at, pilotOf } from "../src/cue";
-import { AgentWord, Bottle, Cap, SANS, Spy } from "../src/ui";
+import { AgentWord, CYAN, MUTED, Stage, stepNo } from "../src/ui";
 
 const pilot = pilotOf("word-tree");
 
-const bgFor = (beat: string) => {
-  if (["keys", "fit"].includes(beat)) return "#c9898a";
-  if (["bleach", "noperson"].includes(beat)) return "#e8a317";
-  if (["hide", "secret", "double"].includes(beat)) return "#241b4a";
-  if (["sends", "free", "alone"].includes(beat)) return "#3d8c4a";
-  return "#f4efe6";
+const tagFor = (b: string) => {
+  if (["bleach", "noperson"].includes(b)) return "Bleaching";
+  if (["secret", "double", "hide"].includes(b)) return b === "double" ? "Double" : "Secret";
+  if (["free", "alone", "sends"].includes(b)) return "Free";
+  if (b === "pause" || b === "quiz") return "Pause";
+  if (b === "pay") return "One job";
+  return "Word tree";
 };
 
 export const WordTree: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const { cue } = at(pilot, t);
+  const { cue, i } = at(pilot, t);
   const b = cue.beat;
-  const dark = ["hide", "secret", "double"].includes(b);
-  const showBleach = b !== "hook" && t >= 8 && t < 45.4;
-  const showSecret = t >= 15.5 && t < 45.4;
-  const showFree = t >= 23 && t < 45.4;
-  const ink = dark ? "#f4efe6" : "#1b1b1f";
+  const bleach = b !== "hook" && t >= 8 && t < 45.4;
+  const secret = t >= 15.5 && t < 45.4;
+  const free = t >= 23 && t < 45.4;
   return (
-    <AbsoluteFill style={{ background: bgFor(b), fontFamily: SANS }}>
-      <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
-        <path d="M540 1280 C540 980 540 860 540 620" stroke={ink} strokeWidth={18} fill="none" />
-        {showBleach && <path d="M540 860 C420 760 280 640 220 520" stroke={ink} strokeWidth={12} fill="none" />}
-        {showSecret && <path d="M540 800 C680 700 820 620 900 500" stroke={ink} strokeWidth={12} fill="none" />}
-        {showFree && <path d="M540 980 C700 1040 820 1120 880 1040" stroke={ink} strokeWidth={12} fill="none" />}
-        {(b === "hook" || b === "keys" || b === "fit" || t >= 39.4) && <Bottle x={150} y={250} s={1.4} />}
-        {(b === "hook" || showSecret) && <Spy x={760} y={250} s={1.3} />}
-        {showBleach && b !== "hook" && <Bottle x={120} y={430} />}
-        {showFree && <rect x={820} y={980} width={70} height={46} rx={6} fill="#f4efe6" stroke={ink} strokeWidth={4} />}
-      </svg>
-      {showBleach && b !== "hook" && (
-        <div style={{ position: "absolute", left: 80, top: 620, color: ink, fontWeight: 700, fontSize: 32 }}>bleaching agent</div>
-      )}
-      {showSecret && (
-        <div style={{ position: "absolute", left: 700, top: 430, color: dark ? "#f4efe6" : ink, fontWeight: 700, fontSize: 32 }}>
-          {b === "double" ? "double agent" : "secret agent"}
-        </div>
-      )}
-      {showFree && (
-        <div style={{ position: "absolute", left: 700, top: 1120, color: ink, fontWeight: 700, fontSize: 32 }}>free agent</div>
-      )}
-      <AgentWord
-        pilot={pilot}
-        t={t}
-        style={{
-          position: "absolute",
-          left: 0,
-          width: 900,
-          top: 1280,
-          textAlign: "center",
-          fontSize: 120,
-          color: b === "pay" ? "#fffaf3" : ink,
-          background: b === "pay" ? "#1b1b1f" : "transparent",
-        }}
-      />
-      <Cap text={cue.caption} light={dark} />
+    <AbsoluteFill>
+      <Stage caption={cue.caption} tag={tagFor(b)} numeral={stepNo(i)} heading={<AgentWord pilot={pilot} t={t} />}>
+        <svg width={780} height={440} viewBox="0 0 780 440" fill="none">
+          <path d="M390 420 V140" stroke={CYAN} strokeWidth={2.2} />
+          {bleach && <path d="M390 250 C300 210 180 180 120 140" stroke={CYAN} strokeWidth={2.2} />}
+          {secret && <path d="M390 220 C500 180 620 160 700 120" stroke={CYAN} strokeWidth={2.2} />}
+          {free && <path d="M390 320 C500 350 620 360 700 320" stroke={CYAN} strokeWidth={2.2} />}
+          {(b === "hook" || b === "keys" || b === "fit" || t >= 39.4) && (
+            <>
+              <rect x={78} y={36} width={22} height={14} rx={2} stroke={CYAN} strokeWidth={2.2} />
+              <rect x={62} y={50} width={54} height={62} rx={8} stroke={CYAN} strokeWidth={2.2} />
+            </>
+          )}
+          {(b === "hook" || secret) && (
+            <path d="M640 48 h70 l-8 18 h-54 Z M658 70 v28 h34 v-28" stroke={CYAN} strokeWidth={2.2} />
+          )}
+          {bleach && b !== "hook" && (
+            <>
+              <rect x={78} y={150} width={22} height={12} rx={2} stroke={CYAN} strokeWidth={2.2} />
+              <rect x={62} y={162} width={54} height={58} rx={8} stroke={CYAN} strokeWidth={2.2} />
+            </>
+          )}
+        </svg>
+        {bleach && b !== "hook" && <div style={{ position: "absolute", left: 36, top: 250, color: MUTED, fontSize: 22 }}>bleaching agent</div>}
+        {secret && (
+          <div style={{ position: "absolute", right: 24, top: 200, color: MUTED, fontSize: 22 }}>
+            {b === "double" ? "double agent" : "secret agent"}
+          </div>
+        )}
+        {free && <div style={{ position: "absolute", right: 36, top: 360, color: MUTED, fontSize: 22 }}>free agent</div>}
+      </Stage>
       <Audio src={staticFile("word-tree.wav")} />
     </AbsoluteFill>
   );

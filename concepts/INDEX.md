@@ -8,7 +8,7 @@ Cost in the table is relative inside this set. Every board calls its own difficu
 
 ## Pilot renders
 
-All nine pilots are vertical 1080×1920 films, made by CA.EYE agents for B2 to C1 learners. Spoken lines stay short, captions are burned in, and the word *agent* is on screen. The scores further down still judge the concept boards. Where those boards taught one fact twice, the pilot keeps the format and gives the fact to a single film. Watch them in this order.
+All nine pilots are vertical 1080×1920 films, made by CA.EYE agents for B2 to C1 learners. The picture is the CA.EYE frame: near-black navy, a cyan eye, a scan cone, corner brackets, grey blocks, and a cyan numeral over a white heading. Spoken lines stay short, captions are burned in, and the word *agent* is on screen. The scores further down still judge the concept boards. Where those boards taught one fact twice, the pilot keeps the format and gives the fact to a single film. Watch them in this order.
 
 | Order | Format | This pilot teaches | Render |
 | --- | --- | --- | --- |
