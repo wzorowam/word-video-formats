@@ -1,0 +1,866 @@
+{
+  "passing-hand": {
+    "id": "passing-hand",
+    "duration": 48,
+    "owns": "agent versus agency",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Who booked it?",
+        "voice": "Agent. Who booked it?"
+      },
+      {
+        "t": 2.8,
+        "beat": "wrong",
+        "caption": "You tap the sign.",
+        "voice": "You tap the sign."
+      },
+      {
+        "t": 5.0,
+        "beat": "stuck",
+        "caption": "It never touches it.",
+        "voice": "The sign never touches it."
+      },
+      {
+        "t": 7.0,
+        "beat": "act",
+        "caption": "Acts for you.",
+        "voice": "An agent acts for you."
+      },
+      {
+        "t": 12.0,
+        "beat": "whom",
+        "caption": "For whom?",
+        "voice": "For whom?"
+      },
+      {
+        "t": 13.5,
+        "beat": "pocket",
+        "caption": "The pocket gives it back.",
+        "voice": "Your agent acts for you. The pocket gives it back."
+      },
+      {
+        "t": 18.5,
+        "beat": "moves",
+        "caption": "What moves?",
+        "voice": "So what moves?"
+      },
+      {
+        "t": 20.0,
+        "beat": "carry",
+        "caption": "While they carry it.",
+        "voice": "The job moves only while they carry it."
+      },
+      {
+        "t": 23.2,
+        "beat": "stick",
+        "caption": "Let go. It sticks.",
+        "voice": "Let go, and it sticks."
+      },
+      {
+        "t": 25.3,
+        "beat": "quiz",
+        "caption": "Sign or hand?",
+        "voice": "Sign or hand?"
+      },
+      {
+        "t": 26.5,
+        "beat": "pause",
+        "caption": "Pause. Who?",
+        "voice": "Pause."
+      },
+      {
+        "t": 29.5,
+        "beat": "reveal",
+        "caption": "This hand.",
+        "voice": "Not the sign. This hand."
+      },
+      {
+        "t": 36.0,
+        "beat": "pay",
+        "caption": "Booked the flight.",
+        "voice": "Your agent booked the flight."
+      },
+      {
+        "t": 40.0,
+        "beat": "room",
+        "caption": "Agency is only the room.",
+        "voice": "The sign says agency. Agency is only the room."
+      },
+      {
+        "t": 45.3,
+        "beat": "hook",
+        "caption": "Who booked it?",
+        "voice": "Agent. Who booked it?"
+      }
+    ]
+  },
+  "word-tree": {
+    "id": "word-tree",
+    "duration": 48,
+    "owns": "the one doing it",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Same job?",
+        "voice": "Bleach is an agent. Same job?"
+      },
+      {
+        "t": 3.2,
+        "beat": "keys",
+        "caption": "With the keys.",
+        "voice": "You picture the person with the keys."
+      },
+      {
+        "t": 4.5,
+        "beat": "fit",
+        "caption": "It will not fit."
+      },
+      {
+        "t": 6.0,
+        "beat": "trunk",
+        "caption": "What grows here?",
+        "voice": "What can it hold?"
+      },
+      {
+        "t": 8.0,
+        "beat": "bleach",
+        "caption": "The liquid does it.",
+        "voice": "A bleaching agent makes the cloth white."
+      },
+      {
+        "t": 11.5,
+        "beat": "noperson",
+        "caption": "No person here.",
+        "voice": "No person on this branch."
+      },
+      {
+        "t": 13.7,
+        "beat": "hide",
+        "caption": "Can they hide?",
+        "voice": "Can the job hide?"
+      },
+      {
+        "t": 15.5,
+        "beat": "secret",
+        "caption": "Unseen.",
+        "voice": "A secret agent works unseen."
+      },
+      {
+        "t": 18.7,
+        "beat": "double",
+        "caption": "Both sides.",
+        "voice": "This one works for both sides."
+      },
+      {
+        "t": 21.2,
+        "beat": "sends",
+        "caption": "Nobody sends them?",
+        "voice": "Nobody sends them?"
+      },
+      {
+        "t": 23.0,
+        "beat": "free",
+        "caption": "Not unpaid.",
+        "voice": "A free agent is not the same as unpaid."
+      },
+      {
+        "t": 26.2,
+        "beat": "alone",
+        "caption": "Nobody else.",
+        "voice": "Nobody else sends them."
+      },
+      {
+        "t": 28.2,
+        "beat": "quiz",
+        "caption": "One job?",
+        "voice": "Quick. What is the one job?"
+      },
+      {
+        "t": 29.8,
+        "beat": "pause",
+        "caption": "One job?"
+      },
+      {
+        "t": 32.8,
+        "beat": "same",
+        "caption": "Same word.",
+        "voice": "The spy does not get a new word."
+      },
+      {
+        "t": 36.2,
+        "beat": "three",
+        "caption": "Same word.",
+        "voice": "A liquid, a hidden one, or free."
+      },
+      {
+        "t": 39.4,
+        "beat": "bud",
+        "caption": "Even the keys.",
+        "voice": "Even the keys."
+      },
+      {
+        "t": 42.2,
+        "beat": "pay",
+        "caption": "The one doing it.",
+        "voice": "Agent is the one doing it."
+      },
+      {
+        "t": 45.4,
+        "beat": "hook",
+        "caption": "Same job?"
+      }
+    ]
+  },
+  "clamp": {
+    "id": "clamp",
+    "duration": 46,
+    "owns": "the sentence is the lock",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Not a person?",
+        "voice": "Which agent is not a person?"
+      },
+      {
+        "t": 2.7,
+        "beat": "literary",
+        "caption": "For a writer.",
+        "voice": "Mina is the agent for this novel."
+      },
+      {
+        "t": 4.6,
+        "beat": "literary2",
+        "caption": "A person.",
+        "voice": "They represent the writer."
+      },
+      {
+        "t": 6.6,
+        "beat": "next1",
+        "caption": "Next frame.",
+        "voice": "Not a book."
+      },
+      {
+        "t": 8.0,
+        "beat": "insurance",
+        "caption": "The policy.",
+        "voice": "Our agent explained the policy."
+      },
+      {
+        "t": 10.6,
+        "beat": "insurance2",
+        "caption": "Still a person.",
+        "voice": "Still a person."
+      },
+      {
+        "t": 12.6,
+        "beat": "next2",
+        "caption": "Still a person.",
+        "voice": "Still a person."
+      },
+      {
+        "t": 14.0,
+        "beat": "press",
+        "caption": "The photo.",
+        "voice": "The agent sent the photo."
+      },
+      {
+        "t": 16.6,
+        "beat": "press2",
+        "caption": "Still a person.",
+        "voice": "Still a person."
+      },
+      {
+        "t": 18.6,
+        "beat": "next3",
+        "caption": "One frame breaks it.",
+        "voice": "One frame breaks it."
+      },
+      {
+        "t": 20.0,
+        "beat": "storm",
+        "caption": "The storm.",
+        "voice": "The roof was damaged by the storm."
+      },
+      {
+        "t": 22.4,
+        "beat": "pause",
+        "caption": "Pause.",
+        "voice": "Pause."
+      },
+      {
+        "t": 25.0,
+        "beat": "reveal",
+        "caption": "Not a person.",
+        "voice": "The person is gone. The storm is the agent."
+      },
+      {
+        "t": 32.0,
+        "beat": "ask",
+        "caption": "What locked it?",
+        "voice": "So what locked it?"
+      },
+      {
+        "t": 34.0,
+        "beat": "lock",
+        "caption": "The sentence locks it.",
+        "voice": "The sentence is the lock."
+      },
+      {
+        "t": 38.0,
+        "beat": "letgo",
+        "caption": "Let go.",
+        "voice": "Watch it let go."
+      },
+      {
+        "t": 43.3,
+        "beat": "hook",
+        "caption": "Not a person?",
+        "voice": "Which agent is not a person?"
+      }
+    ]
+  },
+  "time-machine": {
+    "id": "time-machine",
+    "duration": 50,
+    "owns": "which meaning came first",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "What came first?",
+        "voice": "Agent. What was first?"
+      },
+      {
+        "t": 2.8,
+        "beat": "deputy",
+        "caption": "A deputy?",
+        "voice": "You picture a deputy. Someone sent in your place."
+      },
+      {
+        "t": 6.0,
+        "beat": "notfirst",
+        "caption": "Not the first.",
+        "voice": "Not the first meaning."
+      },
+      {
+        "t": 8.0,
+        "beat": "latin",
+        "caption": "To do.",
+        "voice": "In Latin, agere means to do."
+      },
+      {
+        "t": 12.8,
+        "beat": "english",
+        "caption": "In English.",
+        "voice": "English writes it next."
+      },
+      {
+        "t": 15.0,
+        "beat": "early",
+        "caption": "Makes something happen.",
+        "voice": "Before 1500, an agent makes something happen."
+      },
+      {
+        "t": 19.6,
+        "beat": "force",
+        "caption": "A force.",
+        "voice": "The next record names a force."
+      },
+      {
+        "t": 22.0,
+        "beat": "substance",
+        "caption": "Force or substance.",
+        "voice": "In the 1550s, it is a force or a substance."
+      },
+      {
+        "t": 27.2,
+        "beat": "away",
+        "caption": "One stop away.",
+        "voice": "Your meaning is one stop away."
+      },
+      {
+        "t": 29.5,
+        "beat": "dep2",
+        "caption": "A deputy.",
+        "voice": "In the 1590s, agent means a deputy."
+      },
+      {
+        "t": 34.3,
+        "beat": "quiz",
+        "caption": "Which came first?",
+        "voice": "Pause. Which came first?"
+      },
+      {
+        "t": 36.5,
+        "beat": "pause",
+        "caption": "Doer, or deputy?"
+      },
+      {
+        "t": 39.5,
+        "beat": "pay",
+        "caption": "The doer.",
+        "voice": "The doer came first."
+      },
+      {
+        "t": 42.0,
+        "beat": "later",
+        "caption": "The deputy is later.",
+        "voice": "In English, the deputy is later."
+      },
+      {
+        "t": 45.5,
+        "beat": "again",
+        "caption": "What came first?",
+        "voice": "Ask it again."
+      },
+      {
+        "t": 48.0,
+        "beat": "hook",
+        "caption": "What came first?"
+      }
+    ]
+  },
+  "under-the-label": {
+    "id": "under-the-label",
+    "duration": 48,
+    "owns": "an agent is a word you can count",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Only one spy?",
+        "voice": "Agent. One spy?"
+      },
+      {
+        "t": 2.8,
+        "beat": "spy",
+        "caption": "A spy.",
+        "voice": "You picture a spy."
+      },
+      {
+        "t": 4.2,
+        "beat": "hire",
+        "caption": "One hire.",
+        "voice": "Or one person you hire."
+      },
+      {
+        "t": 6.4,
+        "beat": "face",
+        "caption": "One face.",
+        "voice": "Only one face."
+      },
+      {
+        "t": 8.0,
+        "beat": "hide",
+        "caption": "A short word.",
+        "voice": "The label is hiding a short word."
+      },
+      {
+        "t": 14.0,
+        "beat": "peel",
+        "caption": "Peel.",
+        "voice": "Peel the label."
+      },
+      {
+        "t": 16.2,
+        "beat": "under",
+        "caption": "Look under it.",
+        "voice": "The missing word is an."
+      },
+      {
+        "t": 20.0,
+        "beat": "quiz",
+        "caption": "One, or many?",
+        "voice": "Pause. One spy, or a word you can count?"
+      },
+      {
+        "t": 22.5,
+        "beat": "pause",
+        "caption": "One, or many?"
+      },
+      {
+        "t": 24.5,
+        "beat": "an",
+        "caption": "An agent.",
+        "voice": "An agent. You can count them."
+      },
+      {
+        "t": 28.5,
+        "beat": "three",
+        "caption": "Three agents.",
+        "voice": "One agent. Three agents."
+      },
+      {
+        "t": 34.0,
+        "beat": "picture",
+        "caption": "Only a picture.",
+        "voice": "The spy was only a picture."
+      },
+      {
+        "t": 38.0,
+        "beat": "takes",
+        "caption": "It takes an.",
+        "voice": "The word takes an."
+      },
+      {
+        "t": 42.0,
+        "beat": "next",
+        "caption": "Listen for an.",
+        "voice": "Next time, listen for an."
+      },
+      {
+        "t": 45.3,
+        "beat": "hook",
+        "caption": "Only one spy?",
+        "voice": "Agent. One spy?"
+      }
+    ]
+  },
+  "hidden-uses": {
+    "id": "hidden-uses",
+    "duration": 50,
+    "owns": "wetting, emulsifying, thickening, biological",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Which one?",
+        "voice": "Which one can make you sick?"
+      },
+      {
+        "t": 2.8,
+        "beat": "coat",
+        "caption": "Not the spy.",
+        "voice": "You looked for the spy in the coat."
+      },
+      {
+        "t": 5.2,
+        "beat": "four",
+        "caption": "Find the one.",
+        "voice": "Find the one that can make you sick."
+      },
+      {
+        "t": 8.0,
+        "beat": "wet",
+        "caption": "Wetting.",
+        "voice": "A wetting agent lets the drop spread on the leaf."
+      },
+      {
+        "t": 12.2,
+        "beat": "wet2",
+        "caption": "Not this one.",
+        "voice": "It still cannot make you sick."
+      },
+      {
+        "t": 14.5,
+        "beat": "mix",
+        "caption": "Mixes oil and water.",
+        "voice": "An emulsifying agent mixes oil and water."
+      },
+      {
+        "t": 18.6,
+        "beat": "mix2",
+        "caption": "Not this one.",
+        "voice": "Still not the one."
+      },
+      {
+        "t": 21.0,
+        "beat": "thick",
+        "caption": "Makes it heavy.",
+        "voice": "A thickening agent makes a thin sauce heavy."
+      },
+      {
+        "t": 25.5,
+        "beat": "thick2",
+        "caption": "Not these.",
+        "voice": "None of these can make you sick."
+      },
+      {
+        "t": 28.0,
+        "beat": "pause",
+        "caption": "Pause. Suit or germ?",
+        "voice": "Pause."
+      },
+      {
+        "t": 31.0,
+        "beat": "bio",
+        "caption": "Biological.",
+        "voice": "A biological agent can be a germ or a virus."
+      },
+      {
+        "t": 35.2,
+        "beat": "sick",
+        "caption": "Can make you sick.",
+        "voice": "It can make you sick."
+      },
+      {
+        "t": 39.0,
+        "beat": "count",
+        "caption": "The germ.",
+        "voice": "Leaf. Oil and water. Sauce. Then the germ."
+      },
+      {
+        "t": 43.2,
+        "beat": "again",
+        "caption": "Count them.",
+        "voice": "Leaf, oil, sauce, the germ."
+      },
+      {
+        "t": 45.0,
+        "beat": "hook",
+        "caption": "Which one?"
+      }
+    ]
+  },
+  "shove-test": {
+    "id": "shove-test",
+    "duration": 48,
+    "owns": "the thing that moves is not the agent",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Who?",
+        "voice": "Who is the agent?"
+      },
+      {
+        "t": 2.0,
+        "beat": "point",
+        "caption": "The door?",
+        "voice": "Most people point at the door."
+      },
+      {
+        "t": 5.0,
+        "beat": "moved",
+        "caption": "It moved.",
+        "voice": "They think the thing that moved did the job."
+      },
+      {
+        "t": 8.0,
+        "beat": "where",
+        "caption": "Where?",
+        "voice": "Where does the shove start?"
+      },
+      {
+        "t": 10.0,
+        "beat": "maya",
+        "caption": "From Maya.",
+        "voice": "It starts in Maya."
+      },
+      {
+        "t": 15.0,
+        "beat": "gone",
+        "caption": "No Maya?",
+        "voice": "What if Maya is gone?"
+      },
+      {
+        "t": 17.0,
+        "beat": "door",
+        "caption": "Not the door.",
+        "voice": "The door gets shoved. The door is not the agent."
+      },
+      {
+        "t": 22.0,
+        "beat": "start",
+        "caption": "Where is the start?",
+        "voice": "If not the door, where?"
+      },
+      {
+        "t": 24.0,
+        "beat": "key",
+        "caption": "Not the key.",
+        "voice": "The key is in her hand. The key is not the agent."
+      },
+      {
+        "t": 29.0,
+        "beat": "hand",
+        "caption": "The hand.",
+        "voice": "The hand is still the agent."
+      },
+      {
+        "t": 36.0,
+        "beat": "quiz",
+        "caption": "Your turn.",
+        "voice": "Pause. Who is the agent?"
+      },
+      {
+        "t": 38.0,
+        "beat": "pause",
+        "caption": "Your turn."
+      },
+      {
+        "t": 40.5,
+        "beat": "pay",
+        "caption": "From her.",
+        "voice": "Maya. It comes from her hand."
+      },
+      {
+        "t": 43.5,
+        "beat": "rule",
+        "caption": "Not the thing that moves.",
+        "voice": "Not the thing that moves."
+      },
+      {
+        "t": 46.0,
+        "beat": "hook",
+        "caption": "Who?",
+        "voice": "Who is the agent?"
+      }
+    ]
+  },
+  "same-cord": {
+    "id": "same-cord",
+    "duration": 60,
+    "owns": "who holds the cord",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "Who holds it?",
+        "voice": "Who holds an agent's cord?"
+      },
+      {
+        "t": 2.2,
+        "beat": "boss",
+        "caption": "The boss?",
+        "voice": "You think the agent is the boss."
+      },
+      {
+        "t": 6.0,
+        "beat": "not",
+        "caption": "Not the boss.",
+        "voice": "The cord does not start there."
+      },
+      {
+        "t": 8.2,
+        "beat": "hand",
+        "caption": "A hand above.",
+        "voice": "A hand above hides who they work for."
+      },
+      {
+        "t": 12.0,
+        "beat": "sole",
+        "caption": "Only one company.",
+        "voice": "Sole agent. Only one company holds the cord."
+      },
+      {
+        "t": 18.0,
+        "beat": "prov",
+        "caption": "A costume.",
+        "voice": "Agent provocateur. The crowd is a costume."
+      },
+      {
+        "t": 24.0,
+        "beat": "quiz",
+        "caption": "Which cord?",
+        "voice": "Which cord is still held?"
+      },
+      {
+        "t": 30.0,
+        "beat": "pause",
+        "caption": "Change, or chaos?"
+      },
+      {
+        "t": 33.0,
+        "beat": "change",
+        "caption": "Still held.",
+        "voice": "Change agent. A company still holds it."
+      },
+      {
+        "t": 38.0,
+        "beat": "chaos",
+        "caption": "Nobody holds it.",
+        "voice": "Agent of chaos. Nobody holds it."
+      },
+      {
+        "t": 42.2,
+        "beat": "mess",
+        "caption": "The mess.",
+        "voice": "Chaos is the mess, not a boss who hired them."
+      },
+      {
+        "t": 47.2,
+        "beat": "rule",
+        "caption": "Look for the hand.",
+        "voice": "Look for the hand. If the cord frays, nobody was hired."
+      },
+      {
+        "t": 54.0,
+        "beat": "hook",
+        "caption": "Who holds it?",
+        "voice": "Who holds an agent's cord?"
+      }
+    ]
+  },
+  "alt-screen": {
+    "id": "alt-screen",
+    "duration": 48,
+    "owns": "a label versus another look",
+    "cues": [
+      {
+        "t": 0.0,
+        "beat": "hook",
+        "caption": "What starts?",
+        "voice": "What if you type agent?"
+      },
+      {
+        "t": 2.8,
+        "beat": "chat",
+        "caption": "One answer.",
+        "voice": "Not a chatbot. One answer, then the command line comes back."
+      },
+      {
+        "t": 8.0,
+        "beat": "header",
+        "caption": "A label. Not a mind.",
+        "voice": "User-Agent is a label. The app names itself. Not a mind."
+      },
+      {
+        "t": 15.0,
+        "beat": "boot",
+        "caption": "Session starts.",
+        "voice": "Type agent. The session starts. Still no definition."
+      },
+      {
+        "t": 22.0,
+        "beat": "alt",
+        "caption": "This is the agent.",
+        "voice": "The command line is gone."
+      },
+      {
+        "t": 25.2,
+        "beat": "loop",
+        "caption": "Look. Tool. Look.",
+        "voice": "It looks, uses a tool, and looks again."
+      },
+      {
+        "t": 29.0,
+        "beat": "pause",
+        "caption": "One answer, or another look?",
+        "voice": "One answer, or another look?"
+      },
+      {
+        "t": 32.0,
+        "beat": "answer",
+        "caption": "Another look.",
+        "voice": "Another look."
+      },
+      {
+        "t": 37.0,
+        "beat": "gone",
+        "caption": "Still gone.",
+        "voice": "A chatbot would have given the command line back."
+      },
+      {
+        "t": 42.0,
+        "beat": "hook",
+        "caption": "Type it again.",
+        "voice": "Type agent again. It still will not exit."
+      }
+    ]
+  }
+}

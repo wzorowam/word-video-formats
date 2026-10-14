@@ -1,0 +1,22 @@
+{
+  "name": "word-video-pilots",
+  "private": true,
+  "description": "Vertical word-video pilots by CA.EYE agents.",
+  "scripts": {
+    "audio": "python3 build_audio.py",
+    "render": "bash render-all.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.535",
+    "@remotion/gsap": "^4.0.535",
+    "gsap": "^3.15.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.8.2"
+  }
+}
