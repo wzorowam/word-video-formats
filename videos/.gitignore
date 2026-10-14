@@ -1,0 +1,5 @@
+node_modules
+.remotion
+public/parts
+public/*.wav
+public/*.mp3

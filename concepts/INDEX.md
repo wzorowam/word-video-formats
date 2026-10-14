@@ -6,6 +6,22 @@ All nine pilots teach the word *agent*. The concept files are on the pull reques
 
 Cost in the table is relative inside this set. Every board calls its own difficulty medium. **Low** means Remotion-only flat art. **Medium** means a second animation library, or many states that have to stay in sync. **High** means a second renderer, or a product interface that has to be cloned.
 
+## Pilot renders
+
+All nine pilots are vertical 1080×1920 films, made by CA.EYE agents for B2 to C1 learners. Spoken lines stay short, captions are burned in, and the word *agent* is on screen. The scores further down still judge the concept boards. Where those boards taught one fact twice, the pilot keeps the format and gives the fact to a single film. Watch them in this order.
+
+| Order | Format | This pilot teaches | Render |
+| --- | --- | --- | --- |
+| 1 | Passing Hand | An agent acts for you. Agency is only the room. | [render.mp4](../videos/passing-hand/render.mp4) |
+| 2 | Word Tree | Agent is the one doing it: bleaching agent, secret agent, free agent. | [render.mp4](../videos/word-tree/render.mp4) |
+| 3 | Clamp | The sentence is the lock: a novel, a policy, a photo, then a storm. | [render.mp4](../videos/clamp/render.mp4) |
+| 4 | Time Machine | Which meaning came first: the doer, then a force or substance, then a deputy. | [render.mp4](../videos/time-machine/render.mp4) |
+| 5 | Under the Label | You can count them: an agent, three agents. | [render.mp4](../videos/under-the-label/render.mp4) |
+| 6 | Hidden Uses | Wetting, emulsifying, thickening, and biological. The germ is the one that can make you sick. | [render.mp4](../videos/hidden-uses/render.mp4) |
+| 7 | The Shove Test | The thing that moves is not the agent. | [render.mp4](../videos/shove-test/render.mp4) |
+| 8 | Same Cord | Who holds the cord: sole agent, agent provocateur, change agent, agent of chaos. | [render.mp4](../videos/same-cord/render.mp4) |
+| 9 | Alt-Screen | User-Agent is a label. An agent looks, uses a tool, and looks again. | [render.mp4](../videos/alt-screen/render.mp4) |
+
 ## Comparison
 
 | Format | Duration | Engagement | Learning | Cost | Score | PR |
@@ -28,7 +44,7 @@ Cost in the table is relative inside this set. Every board calls its own difficu
 
 **Deputy, spy, and free agent.** Time Machine places the deputy in the 1590s (29.5), after the doer. Under the Label calls that hire later and answers “Not a person?” with a force (24.50). Passing Hand teaches the deputy as the right answer for a booking (36.0). Word Tree’s secret agent and free agent (15.50, 23.00), Same Cord’s double-agent through chaos clips, and Clamp’s free agent (8.0) are collocations of the person. Alt-Screen’s “old sense” (8.0) is the HTTP header `User-Agent`, a different “old” from the before-1500 doer and from the force under the label.
 
-Time Machine and Under the Label are the pair to watch. Both date the hire to the 1590s. One payoff is “The doer came first.” The other is “A force.”
+That overlap is in the concept boards. The pilots split it. Word Tree keeps bleaching agent, secret agent, free agent, and “the one doing it.” Passing Hand keeps “agency is only the room.” Time Machine keeps the date order and does not call the deputy “not a person.” Under the Label teaches “an agent” as a word you can count, with no force and no bleach. Clamp’s frames are a novel, a policy, a photo, and a storm, and the line it adds is “the sentence is the lock.” Hidden Uses teaches wetting, emulsifying, thickening, and biological, and it does not teach cleaning or the Sam sentence. The Shove Test teaches that the door and the key are not the agent. Same Cord drops free agent and double agent. Alt-Screen does not call User-Agent an old sense.
 
 ## Word Tree
 
