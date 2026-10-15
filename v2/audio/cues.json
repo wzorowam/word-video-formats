@@ -1,0 +1,194 @@
+{
+  "word-tree": {
+    "cues": [
+      [135, "the one doing it"],
+      [330, "a bleaching agent"],
+      [420, "a secret agent"],
+      [510, "a free agent"],
+      [615, "one doer, three blooms"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "the one doing it"],
+      [330, "a bleaching agent"],
+      [420, "a secret agent"],
+      [510, "a free agent"],
+      [615, "one doer, three blooms"]
+    ],
+    "sfx": [
+      [330, "spring"],
+      [420, "spring"],
+      [448, "tick"],
+      [510, "spring"],
+      [530, "snap"]
+    ]
+  },
+  "clamp": {
+    "cues": [
+      [135, "the sentence is the lock"],
+      [330, "novel, policy, and photo"],
+      [500, "a storm strains them"],
+      [615, "clamps snap, let go"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "the sentence is the lock"],
+      [330, "novel, policy, and photo"],
+      [500, "a storm strains them"],
+      [615, "clamps snap, let go"]
+    ],
+    "sfx": [
+      [100, "whoosh"],
+      [175, "tick"],
+      [500, "rustle"],
+      [615, "snap"]
+    ]
+  },
+  "passing-hand": {
+    "cues": [
+      [135, "someone acts for you"],
+      [330, "a ticket crosses over"],
+      [615, "agency is the room"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "someone acts for you"],
+      [330, "a ticket crosses over"],
+      [615, "agency is the room"]
+    ],
+    "sfx": [
+      [330, "whoosh"]
+    ]
+  },
+  "alt-screen": {
+    "cues": [
+      [135, "User-Agent is a label"],
+      [330, "look, use a tool"],
+      [480, "then look again"],
+      [615, "look, tool, look again"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "User-Agent is a label"],
+      [330, "look, use a tool"],
+      [480, "then look again"],
+      [615, "look, tool, look again"]
+    ],
+    "sfx": [
+      [135, "tick"],
+      [318, "spring"],
+      [330, "tick"],
+      [400, "tick"],
+      [480, "tick"]
+    ]
+  },
+  "shove-test": {
+    "cues": [
+      [135, "not the thing moving"],
+      [330, "Maya shoves the door"],
+      [615, "not the door or key"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "not the thing moving"],
+      [330, "Maya shoves the door"],
+      [615, "not the door or key"]
+    ],
+    "sfx": [
+      [330, "whoosh"],
+      [352, "thud"],
+      [372, "spring"]
+    ]
+  },
+  "time-machine": {
+    "cues": [
+      [135, "which meaning came first"],
+      [330, "doer before 1500"],
+      [430, "a force, the 1550s"],
+      [520, "a deputy, the 1590s"],
+      [615, "the doer came first"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "which meaning came first"],
+      [330, "doer before 1500"],
+      [430, "a force, the 1550s"],
+      [520, "a deputy, the 1590s"],
+      [615, "the doer came first"]
+    ],
+    "sfx": [
+      [330, "tick"],
+      [430, "tick"],
+      [520, "tick"]
+    ]
+  },
+  "under-the-label": {
+    "cues": [
+      [135, "you can count them"],
+      [330, "the tape peels back"],
+      [450, "the n drops in"],
+      [540, "three agents in all"],
+      [615, "an agent, three agents"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "you can count them"],
+      [330, "the tape peels back"],
+      [450, "the n drops in"],
+      [540, "three agents in all"],
+      [615, "an agent, three agents"]
+    ],
+    "sfx": [
+      [330, "peel"],
+      [450, "spring"]
+    ]
+  },
+  "same-cord": {
+    "cues": [
+      [135, "who holds the cord"],
+      [330, "a sole agent holds"],
+      [410, "an agent provocateur"],
+      [490, "a change agent"],
+      [560, "an agent of chaos"],
+      [615, "chaos tangles the cord"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "who holds the cord"],
+      [330, "a sole agent holds"],
+      [410, "an agent provocateur"],
+      [490, "a change agent"],
+      [560, "an agent of chaos"],
+      [615, "chaos tangles the cord"]
+    ],
+    "sfx": [
+      [330, "tick"],
+      [410, "tick"],
+      [490, "tick"],
+      [560, "rustle"]
+    ]
+  },
+  "hidden-uses": {
+    "cues": [
+      [135, "four uses, one risk"],
+      [330, "wetting and emulsifying"],
+      [430, "thickening stays safe"],
+      [520, "the germ one lands"],
+      [615, "the germ can sicken"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [135, "four uses, one risk"],
+      [330, "wetting and emulsifying"],
+      [430, "thickening stays safe"],
+      [520, "the germ one lands"],
+      [615, "the germ can sicken"]
+    ],
+    "sfx": [
+      [330, "whoosh"],
+      [390, "whoosh"],
+      [450, "whoosh"],
+      [520, "spring"]
+    ]
+  }
+}
