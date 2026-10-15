@@ -21,13 +21,13 @@ import {
   window01,
 } from "../src/kit";
 
-type Branch = { key: "bleach" | "secret" | "free"; d: string; len: number; tip: [number, number]; tag: [number, number]; text: string };
+type Branch = { key: "bleach" | "secret" | "free"; d: string; len: number; tip: [number, number]; tag: [number, number]; text: string; anchor: "start" | "end" };
 
 const TRUNK = "M268 392 C268 330 262 260 268 150";
 const BRANCHES: Branch[] = [
-  { key: "bleach", d: "M267 290 C220 270 170 250 118 214", len: 170, tip: [104, 198], tag: [110, 300], text: "bleaching agent" },
-  { key: "secret", d: "M266 214 C310 190 360 160 412 118", len: 185, tip: [430, 100], tag: [410, 212], text: "secret agent" },
-  { key: "free", d: "M268 320 C320 312 370 300 420 268", len: 170, tip: [438, 254], tag: [410, 350], text: "free agent" },
+  { key: "bleach", d: "M267 290 C220 270 170 250 118 214", len: 170, tip: [104, 198], tag: [16, 262], text: "bleaching agent", anchor: "start" },
+  { key: "secret", d: "M266 214 C310 190 360 160 412 118", len: 185, tip: [430, 100], tag: [520, 160], text: "secret agent", anchor: "end" },
+  { key: "free", d: "M268 320 C320 312 370 300 420 268", len: 170, tip: [438, 254], tag: [520, 330], text: "free agent", anchor: "end" },
 ];
 
 const Glow: React.FC<{ d: string; on: number }> = ({ d, on }) =>
@@ -162,6 +162,7 @@ export const WordTree: React.FC<ClipProps> = ({ safe }) => (
               x={b.tag[0]}
               y={b.tag[1]}
               text={b.text}
+              anchor={b.anchor}
               on={0}
               show={spring01(t, ({ bleach, secret, free } as const)[b.key].t + 0.8, 0.6, 12)}
             />

@@ -37,6 +37,11 @@ export const CX = (SAFE.left + SAFE.right) / 2;
 
 export const SCENE = { x: SAFE.left, y: 384, w: SAFE_W, h: 396 };
 
+/** Cards sit on this line; the entrance spring stays above SAFE.bottom. */
+export const CARD_BOTTOM = 922;
+/** Scene clip, inset by the camera's largest outward drift (zoom 4 % about CX). */
+export const SCENE_CLIP_INSET = 14;
+
 export type Pt = [number, number];
 /** Catmull-Rom through the points, as cubic Béziers. */
 export const smoothPath = (pts: Pt[]) => {
@@ -253,11 +258,11 @@ const Card: React.FC<{ line: Line; t: number }> = ({ line, t }) => {
         position: "absolute",
         left: SAFE.left,
         width: SAFE_W,
-        top: 800,
+        bottom: H - CARD_BOTTOM,
         display: "flex",
         justifyContent: "center",
         opacity: Math.min(1, inP * 1.6) * (1 - outP),
-        translate: `0px ${mix(46, 0, inP) - 24 * outP}px`,
+        translate: `0px ${mix(22, 0, inP) - 22 * outP}px`,
         scale: String(mix(0.92, 1, inP) - 0.03 * outP),
       }}
     >
@@ -268,9 +273,9 @@ const Card: React.FC<{ line: Line; t: number }> = ({ line, t }) => {
           borderRadius: 22,
           background: PANEL,
           boxShadow: "0 18px 40px rgba(0,0,0,0.45)",
-          fontSize: 46,
+          fontSize: 43,
           fontWeight: 700,
-          lineHeight: 1.12,
+          lineHeight: 1.1,
           textAlign: "center",
           color: INK,
         }}
@@ -355,7 +360,12 @@ export const Frame: React.FC<{
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          {children({ clip, t, fps, frame })}
+          <defs>
+            <clipPath id="scene-safe">
+              <rect x={SCENE_CLIP_INSET} y={-60} width={SCENE.w - 2 * SCENE_CLIP_INSET} height={SCENE.h + 60} />
+            </clipPath>
+          </defs>
+          <g clipPath="url(#scene-safe)">{children({ clip, t, fps, frame })}</g>
         </svg>
       </Camera>
       <div

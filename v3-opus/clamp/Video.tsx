@@ -57,7 +57,7 @@ const Jaw: React.FC<{
   const lip = flip ? `M24 ${y} V${y - 16} M512 ${y} V${y - 16}` : `M24 ${y + JAW_H} V${y + JAW_H + 16} M512 ${y + JAW_H} V${y + JAW_H + 16}`;
   return (
     <g opacity={opacity} transform={`translate(${dx} ${dy}) rotate(${rot} 268 ${y + JAW_H / 2})`}>
-      <rect x={20} y={y} width={496} height={JAW_H} rx={14} fill={PANEL} stroke={color} strokeWidth={4} />
+      <rect x={28} y={y} width={480} height={JAW_H} rx={14} fill={PANEL} stroke={color} strokeWidth={4} />
       <path d={lip} stroke={color} strokeWidth={8} />
       <text x={268} y={y + 50} textAnchor="middle" fontFamily={SANS} fontSize={32} fontWeight={600} fill={INK}>
         {text}

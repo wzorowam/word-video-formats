@@ -154,8 +154,8 @@ export const SameCord: React.FC<ClipProps> = ({ safe }) => (
             <Fist x={HX} y={handY} open={open} on={onHand} />
           </g>
           <SvgTag x={HX + 150} y={60} text="one company" on={focusOf(clip, t, "sole")} show={soleTag} />
-          <SvgTag x={4} y={190} anchor="start" text="change agent" on={0} show={changeTag} />
-          <SvgTag x={4} y={190} anchor="start" text="nobody holds it" on={0} show={chaosTag} />
+          <SvgTag x={16} y={190} anchor="start" text="change agent" on={0} show={changeTag} />
+          <SvgTag x={16} y={190} anchor="start" text="nobody holds it" on={0} show={chaosTag} />
         </>
       );
     }}
