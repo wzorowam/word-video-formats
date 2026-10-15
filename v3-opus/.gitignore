@@ -1,0 +1,6 @@
+node_modules
+.remotion
+.parts
+.voices
+.agents
+public/*.wav

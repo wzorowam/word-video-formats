@@ -1,0 +1,1055 @@
+{
+  "word-tree": {
+    "title": "Word Tree",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Agent: one word, three branches",
+        "accent": "Agent:",
+        "voice": "Agent: one word, three branches",
+        "t": 0.0,
+        "voiceDur": 2.775,
+        "end": 4.378
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "trunk",
+        "card": "The one doing it",
+        "accent": "doing",
+        "voice": "The one doing it",
+        "t": 4.378,
+        "voiceDur": 0.953,
+        "end": 7.558
+      },
+      {
+        "id": "bleach",
+        "section": "example",
+        "focus": "bleach",
+        "card": "Bleaching agent whitens cloth",
+        "accent": "Bleaching agent",
+        "voice": "Bleaching agent whitens cloth",
+        "t": 7.558,
+        "voiceDur": 2.049,
+        "end": 10.798
+      },
+      {
+        "id": "secret",
+        "section": "example",
+        "focus": "secret",
+        "card": "Secret agent works unseen",
+        "accent": "Secret agent",
+        "voice": "Secret agent works unseen",
+        "t": 10.798,
+        "voiceDur": 2.02,
+        "end": 14.002
+      },
+      {
+        "id": "free",
+        "section": "example",
+        "focus": "free",
+        "card": "Free agent joins any team",
+        "accent": "Free agent",
+        "voice": "Free agent joins any team",
+        "t": 14.002,
+        "voiceDur": 2.176,
+        "end": 17.397
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "all",
+        "card": "Bleach, spy, player: doers",
+        "accent": "doers",
+        "voice": "Bleach, spy, player: doers",
+        "t": 17.397,
+        "voiceDur": 2.362,
+        "end": 21.02
+      },
+      {
+        "id": "final",
+        "section": "recap",
+        "focus": "trunk",
+        "card": "Agent: the one doing it",
+        "accent": "Agent:",
+        "voice": "Agent: the one doing it",
+        "t": 21.02,
+        "voiceDur": 1.814,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "word",
+        "dt": 0.0,
+        "kind": "whoosh"
+      },
+      {
+        "line": "bleach",
+        "dt": 0.6,
+        "kind": "pop"
+      },
+      {
+        "line": "bleach",
+        "dt": 1.5,
+        "kind": "drip"
+      },
+      {
+        "line": "secret",
+        "dt": 0.6,
+        "kind": "pop"
+      },
+      {
+        "line": "secret",
+        "dt": 1.2,
+        "kind": "tick"
+      },
+      {
+        "line": "free",
+        "dt": 0.6,
+        "kind": "pop"
+      },
+      {
+        "line": "free",
+        "dt": 1.3,
+        "kind": "swish"
+      },
+      {
+        "line": "final",
+        "dt": 0.1,
+        "kind": "chime"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.7,
+      "music_under_voice_db": -35.2,
+      "music_in_gaps_db": -29.4,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "clamp": {
+    "title": "Clamp",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Agent: one word, many meanings",
+        "accent": "Agent:",
+        "voice": "Agent: one word, many meanings",
+        "t": 0.0,
+        "voiceDur": 2.976,
+        "end": 5.389
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "clamps",
+        "card": "The sentence is the lock",
+        "accent": "lock",
+        "voice": "The sentence is the lock",
+        "t": 5.389,
+        "voiceDur": 1.377,
+        "end": 9.126
+      },
+      {
+        "id": "novel",
+        "section": "example",
+        "focus": "novel",
+        "card": "For a novel: a person",
+        "accent": "person",
+        "voice": "For a novel: a person",
+        "t": 9.126,
+        "voiceDur": 1.49,
+        "end": 12.863
+      },
+      {
+        "id": "storm",
+        "section": "example",
+        "focus": "storm",
+        "card": "In a storm: a force",
+        "accent": "force",
+        "voice": "In a storm: a force",
+        "t": 12.863,
+        "voiceDur": 1.725,
+        "end": 16.6
+      },
+      {
+        "id": "letgo",
+        "section": "recap",
+        "focus": "letgo",
+        "card": "Let go: it opens",
+        "accent": "Let go:",
+        "voice": "Let go: it opens",
+        "t": 16.6,
+        "voiceDur": 2.088,
+        "end": 20.463
+      },
+      {
+        "id": "final",
+        "section": "recap",
+        "focus": "clamps",
+        "card": "The sentence is the lock",
+        "accent": "lock",
+        "voice": "The sentence is the lock",
+        "t": 20.463,
+        "voiceDur": 1.411,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "meaning",
+        "dt": 0.3,
+        "kind": "whoosh"
+      },
+      {
+        "line": "meaning",
+        "dt": 0.75,
+        "kind": "clunk"
+      },
+      {
+        "line": "storm",
+        "dt": 0.0,
+        "kind": "whoosh"
+      },
+      {
+        "line": "storm",
+        "dt": 0.75,
+        "kind": "clunk"
+      },
+      {
+        "line": "storm",
+        "dt": 1.7,
+        "kind": "rumble"
+      },
+      {
+        "line": "letgo",
+        "dt": 0.15,
+        "kind": "snap"
+      },
+      {
+        "line": "final",
+        "dt": 0.3,
+        "kind": "whoosh"
+      },
+      {
+        "line": "final",
+        "dt": 0.7,
+        "kind": "clunk"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.3,
+      "music_under_voice_db": -35.4,
+      "music_in_gaps_db": -27.2,
+      "sfx_peak_db": -11.7
+    }
+  },
+  "passing-hand": {
+    "title": "Passing Hand",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Agent, or agency?",
+        "accent": "Agent,",
+        "voice": "Agent, or agency?",
+        "t": 0.0,
+        "voiceDur": 1.42,
+        "end": 4.038
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "hand",
+        "card": "An agent acts for you",
+        "accent": "agent",
+        "voice": "An agent acts for you",
+        "t": 4.038,
+        "voiceDur": 1.612,
+        "end": 7.825
+      },
+      {
+        "id": "ticket",
+        "section": "example",
+        "focus": "ticket",
+        "card": "Their hand carries the job",
+        "accent": "hand",
+        "voice": "Their hand carries the job",
+        "t": 7.825,
+        "voiceDur": 1.787,
+        "end": 11.613
+      },
+      {
+        "id": "booked",
+        "section": "example",
+        "focus": "booked",
+        "card": "Your agent booked it",
+        "accent": "booked",
+        "voice": "Your agent booked it",
+        "t": 11.613,
+        "voiceDur": 1.223,
+        "end": 15.401
+      },
+      {
+        "id": "room",
+        "section": "example",
+        "focus": "sign",
+        "card": "The agency is the room",
+        "accent": "agency",
+        "voice": "The agency is the room",
+        "t": 15.401,
+        "voiceDur": 1.602,
+        "end": 19.188
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "both",
+        "card": "Hand: agent. Room: agency.",
+        "accent": "Hand:",
+        "voice": "Hand: agent. Room: agency.",
+        "t": 19.188,
+        "voiceDur": 2.84,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "ticket",
+        "dt": 0.2,
+        "kind": "slide"
+      },
+      {
+        "line": "ticket",
+        "dt": 1.45,
+        "kind": "tick"
+      },
+      {
+        "line": "ticket",
+        "dt": 1.6,
+        "kind": "slide"
+      },
+      {
+        "line": "booked",
+        "dt": 0.45,
+        "kind": "stamp"
+      },
+      {
+        "line": "room",
+        "dt": 0.3,
+        "kind": "chime"
+      },
+      {
+        "line": "recap",
+        "dt": 1.4,
+        "kind": "slide"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.8,
+      "music_under_voice_db": -34.7,
+      "music_in_gaps_db": -28.2,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "alt-screen": {
+    "title": "Alt Screen",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "prompt",
+        "card": "What does agent start?",
+        "accent": "agent",
+        "voice": "What does agent start?",
+        "t": 0.0,
+        "voiceDur": 1.387,
+        "end": 4.022
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "loop",
+        "card": "Look, use tools, look again",
+        "accent": "look",
+        "voice": "Look, use tools, look again",
+        "t": 4.022,
+        "voiceDur": 2.907,
+        "end": 9.111
+      },
+      {
+        "id": "header",
+        "section": "example",
+        "focus": "header",
+        "card": "User-Agent is a label",
+        "accent": "label",
+        "say": "User agent is a label.",
+        "voice": "User agent is a label.",
+        "t": 9.111,
+        "voiceDur": 1.655,
+        "end": 12.883
+      },
+      {
+        "id": "chat",
+        "section": "example",
+        "focus": "chat",
+        "card": "A chatbot answers once",
+        "accent": "once",
+        "voice": "A chatbot answers once",
+        "t": 12.883,
+        "voiceDur": 1.839,
+        "end": 16.655
+      },
+      {
+        "id": "keeps",
+        "section": "example",
+        "focus": "loop",
+        "card": "The agent keeps looking",
+        "accent": "keeps",
+        "voice": "The agent keeps looking",
+        "t": 16.655,
+        "voiceDur": 1.509,
+        "end": 20.428
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "loop",
+        "card": "Look, tool, look again",
+        "accent": "again",
+        "voice": "Look, tool, look again",
+        "t": 20.428,
+        "voiceDur": 1.968,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "word",
+        "dt": 0.0,
+        "kind": "keys"
+      },
+      {
+        "line": "meaning",
+        "dt": 0.1,
+        "kind": "pop"
+      },
+      {
+        "line": "header",
+        "dt": 0.1,
+        "kind": "pop"
+      },
+      {
+        "line": "chat",
+        "dt": 0.1,
+        "kind": "pop"
+      },
+      {
+        "line": "chat",
+        "dt": 2.2,
+        "kind": "tick"
+      },
+      {
+        "line": "keeps",
+        "dt": 0.1,
+        "kind": "pop"
+      },
+      {
+        "line": "recap",
+        "dt": 0.1,
+        "kind": "tick"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -17.5,
+      "music_under_voice_db": -35.3,
+      "music_in_gaps_db": -27.4,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "shove-test": {
+    "title": "Shove Test",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Who is the agent?",
+        "accent": "agent?",
+        "voice": "Who is the agent?",
+        "t": 0.0,
+        "voiceDur": 1.031,
+        "end": 4.242
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "start",
+        "card": "Where the push starts",
+        "accent": "starts",
+        "voice": "Where the push starts",
+        "t": 4.242,
+        "voiceDur": 1.32,
+        "end": 8.233
+      },
+      {
+        "id": "shove",
+        "section": "example",
+        "focus": "maya",
+        "card": "Maya shoves the door",
+        "accent": "Maya",
+        "say": "Maya shuvs the door.",
+        "voice": "Maya shuvs the door.",
+        "t": 8.233,
+        "voiceDur": 1.333,
+        "end": 12.225
+      },
+      {
+        "id": "door",
+        "section": "example",
+        "focus": "door",
+        "card": "The door only moves",
+        "accent": "door",
+        "voice": "The door only moves",
+        "t": 12.225,
+        "voiceDur": 1.384,
+        "end": 16.217
+      },
+      {
+        "id": "hand",
+        "section": "example",
+        "focus": "hand",
+        "card": "It starts in her hand",
+        "accent": "hand",
+        "voice": "It starts in her hand",
+        "t": 16.217,
+        "voiceDur": 1.483,
+        "end": 20.208
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "hand",
+        "card": "Not the thing that moves",
+        "accent": "Not",
+        "voice": "Not the thing that moves",
+        "t": 20.208,
+        "voiceDur": 1.422,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "meaning",
+        "dt": 0.3,
+        "kind": "swish"
+      },
+      {
+        "line": "shove",
+        "dt": 0.3,
+        "kind": "swish"
+      },
+      {
+        "line": "shove",
+        "dt": 1.2,
+        "kind": "thud"
+      },
+      {
+        "line": "shove",
+        "dt": 1.3,
+        "kind": "creak"
+      },
+      {
+        "line": "hand",
+        "dt": 0.7,
+        "kind": "thud"
+      },
+      {
+        "line": "recap",
+        "dt": 0.96,
+        "kind": "thud"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -15.9,
+      "music_under_voice_db": -34.5,
+      "music_in_gaps_db": -28.0,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "time-machine": {
+    "title": "Time Machine",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Agent: which meaning came first?",
+        "accent": "Agent:",
+        "voice": "Agent: which meaning came first?",
+        "t": 0.0,
+        "voiceDur": 2.259,
+        "end": 4.166
+      },
+      {
+        "id": "latin",
+        "section": "meaning",
+        "focus": "latin",
+        "card": "Latin agere: to do",
+        "accent": "to do",
+        "say": "Latin, ahgeray. To do.",
+        "voice": "Latin, ahgeray. To do.",
+        "t": 4.166,
+        "voiceDur": 1.932,
+        "end": 7.727
+      },
+      {
+        "id": "doer",
+        "section": "example",
+        "focus": "doer",
+        "card": "Before 1500: a doer",
+        "accent": "doer",
+        "say": "Before fifteen hundred: a doer.",
+        "voice": "Before fifteen hundred: a doer.",
+        "t": 7.727,
+        "voiceDur": 2.313,
+        "end": 11.718
+      },
+      {
+        "id": "force",
+        "section": "example",
+        "focus": "force",
+        "card": "1550s: a force",
+        "accent": "force",
+        "say": "The fifteen fifties: a force.",
+        "voice": "The fifteen fifties: a force.",
+        "t": 11.718,
+        "voiceDur": 2.461,
+        "end": 15.911
+      },
+      {
+        "id": "deputy",
+        "section": "example",
+        "focus": "deputy",
+        "card": "1590s: someone acting for you",
+        "accent": "acting for you",
+        "say": "The fifteen nineties: someone acting for you.",
+        "voice": "The fifteen nineties: someone acting for you.",
+        "t": 15.911,
+        "voiceDur": 2.851,
+        "end": 20.639
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "doer",
+        "card": "The doer came first",
+        "accent": "doer",
+        "voice": "The doer came first",
+        "t": 20.639,
+        "voiceDur": 1.418,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "latin",
+        "dt": 0.1,
+        "kind": "ratchet"
+      },
+      {
+        "line": "doer",
+        "dt": 0.1,
+        "kind": "ratchet"
+      },
+      {
+        "line": "force",
+        "dt": 0.1,
+        "kind": "ratchet"
+      },
+      {
+        "line": "deputy",
+        "dt": 0.1,
+        "kind": "ratchet"
+      },
+      {
+        "line": "recap",
+        "dt": 0.1,
+        "kind": "ratchet"
+      },
+      {
+        "line": "recap",
+        "dt": 1.3,
+        "kind": "chime"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -17.3,
+      "music_under_voice_db": -34.9,
+      "music_in_gaps_db": -29.2,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "under-the-label": {
+    "title": "Under the Label",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Agent: what hides under here?",
+        "accent": "Agent:",
+        "voice": "Agent: what hides under here?",
+        "t": 0.0,
+        "voiceDur": 2.068,
+        "end": 4.221
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "count",
+        "card": "You can count agents",
+        "accent": "count",
+        "voice": "You can count agents",
+        "t": 4.221,
+        "voiceDur": 1.348,
+        "end": 8.092
+      },
+      {
+        "id": "peel",
+        "section": "example",
+        "focus": "peel",
+        "card": "Peel the tape back",
+        "accent": "Peel",
+        "voice": "Peel the tape back",
+        "t": 8.092,
+        "voiceDur": 1.196,
+        "end": 11.963
+      },
+      {
+        "id": "an",
+        "section": "example",
+        "focus": "n",
+        "card": "Before a vowel: an",
+        "accent": "an",
+        "voice": "Before a vowel: an",
+        "t": 11.963,
+        "voiceDur": 1.382,
+        "end": 15.833
+      },
+      {
+        "id": "three",
+        "section": "example",
+        "focus": "s",
+        "card": "One agent, three agents",
+        "accent": "three agents",
+        "voice": "One agent, three agents",
+        "t": 15.833,
+        "voiceDur": 2.195,
+        "end": 19.994
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "both",
+        "card": "An agent. Three agents.",
+        "accent": "An",
+        "voice": "An agent. Three agents.",
+        "t": 19.994,
+        "voiceDur": 2.225,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "meaning",
+        "dt": 0.5,
+        "kind": "tick"
+      },
+      {
+        "line": "meaning",
+        "dt": 0.9,
+        "kind": "tick"
+      },
+      {
+        "line": "meaning",
+        "dt": 1.3,
+        "kind": "tick"
+      },
+      {
+        "line": "peel",
+        "dt": 0.2,
+        "kind": "peel"
+      },
+      {
+        "line": "an",
+        "dt": 1.5,
+        "kind": "pop"
+      },
+      {
+        "line": "three",
+        "dt": 1.4,
+        "kind": "pop"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.6,
+      "music_under_voice_db": -34.4,
+      "music_in_gaps_db": -28.7,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "hidden-uses": {
+    "title": "Hidden Uses",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Which agent makes you sick?",
+        "accent": "agent",
+        "voice": "Which agent makes you sick?",
+        "t": 0.0,
+        "voiceDur": 1.714,
+        "end": 3.373
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "lines",
+        "card": "A substance doing a job",
+        "accent": "substance",
+        "voice": "A substance doing a job",
+        "t": 3.373,
+        "voiceDur": 1.778,
+        "end": 6.497
+      },
+      {
+        "id": "wet",
+        "section": "example",
+        "focus": "wet",
+        "card": "Wetting: the drop spreads",
+        "accent": "Wetting:",
+        "voice": "Wetting: the drop spreads",
+        "t": 6.497,
+        "voiceDur": 1.9,
+        "end": 9.62
+      },
+      {
+        "id": "mix",
+        "section": "example",
+        "focus": "mix",
+        "card": "Emulsifying: oil meets water",
+        "accent": "Emulsifying:",
+        "voice": "Emulsifying: oil meets water",
+        "t": 9.62,
+        "voiceDur": 2.572,
+        "end": 13.43
+      },
+      {
+        "id": "thick",
+        "section": "example",
+        "focus": "thick",
+        "card": "Thickening: the sauce thickens",
+        "accent": "Thickening:",
+        "voice": "Thickening: the sauce thickens",
+        "t": 13.43,
+        "voiceDur": 2.379,
+        "end": 17.009
+      },
+      {
+        "id": "germ",
+        "section": "example",
+        "focus": "germ",
+        "card": "Biological: germs, viruses",
+        "accent": "Biological:",
+        "voice": "Biological: germs, viruses",
+        "t": 17.009,
+        "voiceDur": 2.786,
+        "end": 21.077
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "germ",
+        "card": "Three help. One harms.",
+        "accent": "One harms.",
+        "voice": "Three help. One harms.",
+        "t": 21.077,
+        "voiceDur": 1.989,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "meaning",
+        "dt": 0.2,
+        "kind": "swish"
+      },
+      {
+        "line": "wet",
+        "dt": 0.9,
+        "kind": "drip"
+      },
+      {
+        "line": "mix",
+        "dt": 0.6,
+        "kind": "swish"
+      },
+      {
+        "line": "thick",
+        "dt": 0.6,
+        "kind": "swish"
+      },
+      {
+        "line": "germ",
+        "dt": 0.4,
+        "kind": "low"
+      },
+      {
+        "line": "recap",
+        "dt": 1.5,
+        "kind": "low"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.9,
+      "music_under_voice_db": -35.7,
+      "music_in_gaps_db": -27.8,
+      "sfx_peak_db": -12.4
+    }
+  },
+  "same-cord": {
+    "title": "Same Cord",
+    "duration": 25.0,
+    "lines": [
+      {
+        "id": "word",
+        "section": "word",
+        "focus": "word",
+        "card": "Who holds the agent's cord?",
+        "accent": "holds",
+        "voice": "Who holds the agent's cord?",
+        "t": 0.0,
+        "voiceDur": 1.749,
+        "end": 4.12
+      },
+      {
+        "id": "meaning",
+        "section": "meaning",
+        "focus": "hand",
+        "card": "An agent works for someone",
+        "accent": "for someone",
+        "voice": "An agent works for someone",
+        "t": 4.12,
+        "voiceDur": 1.766,
+        "end": 7.99
+      },
+      {
+        "id": "sole",
+        "section": "example",
+        "focus": "sole",
+        "card": "Sole agent: one holder",
+        "accent": "one holder",
+        "voice": "Sole agent: one holder",
+        "t": 7.99,
+        "voiceDur": 2.086,
+        "end": 11.987
+      },
+      {
+        "id": "change",
+        "section": "example",
+        "focus": "change",
+        "card": "Change agent: pushes change",
+        "accent": "pushes change",
+        "voice": "Change agent: pushes change",
+        "t": 11.987,
+        "voiceDur": 2.308,
+        "end": 16.316
+      },
+      {
+        "id": "chaos",
+        "section": "example",
+        "focus": "chaos",
+        "card": "Agent of chaos: nobody",
+        "accent": "nobody",
+        "voice": "Agent of chaos: nobody",
+        "t": 16.316,
+        "voiceDur": 2.097,
+        "end": 20.33
+      },
+      {
+        "id": "recap",
+        "section": "recap",
+        "focus": "hand",
+        "card": "Look for the hand",
+        "accent": "hand",
+        "voice": "Look for the hand",
+        "t": 20.33,
+        "voiceDur": 1.023,
+        "end": 25.0
+      }
+    ],
+    "sfx": [
+      {
+        "line": "word",
+        "dt": 0.0,
+        "kind": "whoosh"
+      },
+      {
+        "line": "change",
+        "dt": 0.9,
+        "kind": "tick"
+      },
+      {
+        "line": "change",
+        "dt": 1.05,
+        "kind": "tick"
+      },
+      {
+        "line": "change",
+        "dt": 1.2,
+        "kind": "tick"
+      },
+      {
+        "line": "chaos",
+        "dt": 1.25,
+        "kind": "snap"
+      },
+      {
+        "line": "chaos",
+        "dt": 1.4,
+        "kind": "swish"
+      },
+      {
+        "line": "recap",
+        "dt": 0.15,
+        "kind": "whoosh"
+      },
+      {
+        "line": "recap",
+        "dt": 0.8,
+        "kind": "clunk"
+      }
+    ],
+    "levels": {
+      "voice_rms_db": -16.4,
+      "music_under_voice_db": -34.3,
+      "music_in_gaps_db": -29.1,
+      "sfx_peak_db": -12.3
+    }
+  }
+}

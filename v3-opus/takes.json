@@ -1,0 +1,62 @@
+{
+  "passing-hand:recap": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "hand agent, room, agency."
+  },
+  "under-the-label:an": {
+    "takes": 5,
+    "kept_score": 0.75,
+    "heard": "before a vowel and"
+  },
+  "under-the-label:peel": {
+    "takes": 4,
+    "kept_score": 1.0,
+    "heard": "Peel the tape back."
+  },
+  "hidden-uses:recap": {
+    "takes": 2,
+    "kept_score": 1.0,
+    "heard": "Three help, one harms."
+  },
+  "hidden-uses:germ": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "biological.  Germs, viruses,"
+  },
+  "same-cord:chaos": {
+    "takes": 2,
+    "kept_score": 1.0,
+    "heard": "Agent of Chaos. Nobody."
+  },
+  "clamp:novel": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "for a novel, a person."
+  },
+  "clamp:storm": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "in a storm, a force."
+  },
+  "hidden-uses:wet": {
+    "takes": 3,
+    "kept_score": 1.0,
+    "heard": "Wetting, the drop spreads."
+  },
+  "under-the-label:meaning": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "You can count agents."
+  },
+  "word-tree:free": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "free agent joins any team."
+  },
+  "passing-hand:booked": {
+    "takes": 1,
+    "kept_score": 1.0,
+    "heard": "Your agent booked it."
+  }
+}

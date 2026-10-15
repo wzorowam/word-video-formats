@@ -1,0 +1,14 @@
+{
+  "frames": 750,
+  "bright_pixels_outside_safe_zone": 0,
+  "worst_outside_frame": -1,
+  "frame0_word_band_bright_share": 0.187,
+  "median_frame_change": 0.0003,
+  "max_frame_change": 0.0152,
+  "max_change_frames": [
+    246,
+    482,
+    4
+  ],
+  "frames_with_no_change": 0
+}
