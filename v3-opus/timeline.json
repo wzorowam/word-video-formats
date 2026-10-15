@@ -12,7 +12,7 @@
         "voice": "Agent: one word, three branches",
         "t": 0.0,
         "voiceDur": 2.775,
-        "end": 4.407
+        "end": 4.378
       },
       {
         "id": "meaning",
@@ -21,9 +21,9 @@
         "card": "The one doing it",
         "accent": "doing",
         "voice": "The one doing it",
-        "t": 4.407,
+        "t": 4.378,
         "voiceDur": 0.953,
-        "end": 7.609
+        "end": 7.558
       },
       {
         "id": "bleach",
@@ -32,9 +32,9 @@
         "card": "Bleaching agent whitens cloth",
         "accent": "Bleaching agent",
         "voice": "Bleaching agent whitens cloth",
-        "t": 7.609,
+        "t": 7.558,
         "voiceDur": 2.049,
-        "end": 10.871
+        "end": 10.798
       },
       {
         "id": "secret",
@@ -43,9 +43,9 @@
         "card": "Secret agent works unseen",
         "accent": "Secret agent",
         "voice": "Secret agent works unseen",
-        "t": 10.871,
+        "t": 10.798,
         "voiceDur": 2.02,
-        "end": 14.098
+        "end": 14.002
       },
       {
         "id": "free",
@@ -54,9 +54,9 @@
         "card": "Free agent joins any team",
         "accent": "Free agent",
         "voice": "Free agent joins any team",
-        "t": 14.098,
-        "voiceDur": 2.041,
-        "end": 17.35
+        "t": 14.002,
+        "voiceDur": 2.176,
+        "end": 17.397
       },
       {
         "id": "recap",
@@ -65,9 +65,9 @@
         "card": "Bleach, spy, player: doers",
         "accent": "doers",
         "voice": "Bleach, spy, player: doers",
-        "t": 17.35,
+        "t": 17.397,
         "voiceDur": 2.362,
-        "end": 20.998
+        "end": 21.02
       },
       {
         "id": "final",
@@ -76,7 +76,7 @@
         "card": "Agent: the one doing it",
         "accent": "Agent:",
         "voice": "Agent: the one doing it",
-        "t": 20.998,
+        "t": 21.02,
         "voiceDur": 1.814,
         "end": 25.0
       }
@@ -122,7 +122,13 @@
         "dt": 0.1,
         "kind": "chime"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.7,
+      "music_under_voice_db": -35.2,
+      "music_in_gaps_db": -29.4,
+      "sfx_peak_db": -12.4
+    }
   },
   "clamp": {
     "title": "Clamp",
@@ -158,7 +164,7 @@
         "accent": "person",
         "voice": "For a novel: a person",
         "t": 9.126,
-        "voiceDur": 1.508,
+        "voiceDur": 1.49,
         "end": 12.863
       },
       {
@@ -169,7 +175,7 @@
         "accent": "force",
         "voice": "In a storm: a force",
         "t": 12.863,
-        "voiceDur": 1.686,
+        "voiceDur": 1.725,
         "end": 16.6
       },
       {
@@ -236,7 +242,13 @@
         "dt": 0.7,
         "kind": "clunk"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.3,
+      "music_under_voice_db": -35.4,
+      "music_in_gaps_db": -27.2,
+      "sfx_peak_db": -11.7
+    }
   },
   "passing-hand": {
     "title": "Passing Hand",
@@ -251,7 +263,7 @@
         "voice": "Agent, or agency?",
         "t": 0.0,
         "voiceDur": 1.42,
-        "end": 4.108
+        "end": 4.038
       },
       {
         "id": "meaning",
@@ -260,9 +272,9 @@
         "card": "An agent acts for you",
         "accent": "agent",
         "voice": "An agent acts for you",
-        "t": 4.108,
+        "t": 4.038,
         "voiceDur": 1.612,
-        "end": 7.966
+        "end": 7.825
       },
       {
         "id": "ticket",
@@ -271,9 +283,9 @@
         "card": "Their hand carries the job",
         "accent": "hand",
         "voice": "Their hand carries the job",
-        "t": 7.966,
+        "t": 7.825,
         "voiceDur": 1.787,
-        "end": 11.824
+        "end": 11.613
       },
       {
         "id": "booked",
@@ -282,9 +294,9 @@
         "card": "Your agent booked it",
         "accent": "booked",
         "voice": "Your agent booked it",
-        "t": 11.824,
-        "voiceDur": 1.224,
-        "end": 15.681
+        "t": 11.613,
+        "voiceDur": 1.223,
+        "end": 15.401
       },
       {
         "id": "room",
@@ -293,9 +305,9 @@
         "card": "The agency is the room",
         "accent": "agency",
         "voice": "The agency is the room",
-        "t": 15.681,
+        "t": 15.401,
         "voiceDur": 1.602,
-        "end": 19.539
+        "end": 19.188
       },
       {
         "id": "recap",
@@ -304,8 +316,8 @@
         "card": "Hand: agent. Room: agency.",
         "accent": "Hand:",
         "voice": "Hand: agent. Room: agency.",
-        "t": 19.539,
-        "voiceDur": 2.541,
+        "t": 19.188,
+        "voiceDur": 2.84,
         "end": 25.0
       }
     ],
@@ -317,7 +329,7 @@
       },
       {
         "line": "ticket",
-        "dt": 1.3,
+        "dt": 1.45,
         "kind": "tick"
       },
       {
@@ -340,7 +352,13 @@
         "dt": 1.4,
         "kind": "slide"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.8,
+      "music_under_voice_db": -34.7,
+      "music_in_gaps_db": -28.2,
+      "sfx_peak_db": -12.4
+    }
   },
   "alt-screen": {
     "title": "Alt Screen",
@@ -450,7 +468,13 @@
         "dt": 0.1,
         "kind": "tick"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -17.5,
+      "music_under_voice_db": -35.3,
+      "music_in_gaps_db": -27.4,
+      "sfx_peak_db": -12.4
+    }
   },
   "shove-test": {
     "title": "Shove Test",
@@ -484,9 +508,10 @@
         "focus": "maya",
         "card": "Maya shoves the door",
         "accent": "Maya",
-        "voice": "Maya shoves the door",
+        "say": "Maya shuvs the door.",
+        "voice": "Maya shuvs the door.",
         "t": 8.233,
-        "voiceDur": 1.389,
+        "voiceDur": 1.333,
         "end": 12.225
       },
       {
@@ -546,15 +571,21 @@
       },
       {
         "line": "hand",
-        "dt": 0.6,
+        "dt": 0.7,
         "kind": "thud"
       },
       {
         "line": "recap",
-        "dt": 0.9,
+        "dt": 0.96,
         "kind": "thud"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -15.9,
+      "music_under_voice_db": -34.5,
+      "music_in_gaps_db": -28.0,
+      "sfx_peak_db": -12.4
+    }
   },
   "time-machine": {
     "title": "Time Machine",
@@ -662,7 +693,13 @@
         "dt": 1.3,
         "kind": "chime"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -17.3,
+      "music_under_voice_db": -34.9,
+      "music_in_gaps_db": -29.2,
+      "sfx_peak_db": -12.4
+    }
   },
   "under-the-label": {
     "title": "Under the Label",
@@ -687,7 +724,7 @@
         "accent": "count",
         "voice": "You can count agents",
         "t": 4.221,
-        "voiceDur": 1.417,
+        "voiceDur": 1.348,
         "end": 8.092
       },
       {
@@ -698,7 +735,7 @@
         "accent": "Peel",
         "voice": "Peel the tape back",
         "t": 8.092,
-        "voiceDur": 1.241,
+        "voiceDur": 1.196,
         "end": 11.963
       },
       {
@@ -709,7 +746,7 @@
         "accent": "an",
         "voice": "Before a vowel: an",
         "t": 11.963,
-        "voiceDur": 1.529,
+        "voiceDur": 1.382,
         "end": 15.833
       },
       {
@@ -766,7 +803,13 @@
         "dt": 1.4,
         "kind": "pop"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.6,
+      "music_under_voice_db": -34.4,
+      "music_in_gaps_db": -28.7,
+      "sfx_peak_db": -12.4
+    }
   },
   "hidden-uses": {
     "title": "Hidden Uses",
@@ -781,7 +824,7 @@
         "voice": "Which agent makes you sick?",
         "t": 0.0,
         "voiceDur": 1.714,
-        "end": 3.502
+        "end": 3.373
       },
       {
         "id": "meaning",
@@ -790,9 +833,9 @@
         "card": "A substance doing a job",
         "accent": "substance",
         "voice": "A substance doing a job",
-        "t": 3.502,
+        "t": 3.373,
         "voiceDur": 1.778,
-        "end": 6.753
+        "end": 6.497
       },
       {
         "id": "wet",
@@ -801,9 +844,9 @@
         "card": "Wetting: the drop spreads",
         "accent": "Wetting:",
         "voice": "Wetting: the drop spreads",
-        "t": 6.753,
-        "voiceDur": 1.871,
-        "end": 10.005
+        "t": 6.497,
+        "voiceDur": 1.9,
+        "end": 9.62
       },
       {
         "id": "mix",
@@ -812,9 +855,9 @@
         "card": "Emulsifying: oil meets water",
         "accent": "Emulsifying:",
         "voice": "Emulsifying: oil meets water",
-        "t": 10.005,
+        "t": 9.62,
         "voiceDur": 2.572,
-        "end": 13.971
+        "end": 13.43
       },
       {
         "id": "thick",
@@ -823,20 +866,20 @@
         "card": "Thickening: the sauce thickens",
         "accent": "Thickening:",
         "voice": "Thickening: the sauce thickens",
-        "t": 13.971,
+        "t": 13.43,
         "voiceDur": 2.379,
-        "end": 17.697
+        "end": 17.009
       },
       {
         "id": "germ",
         "section": "example",
         "focus": "germ",
-        "card": "Biological: a germ",
+        "card": "Biological: germs, viruses",
         "accent": "Biological:",
-        "voice": "Biological: a germ",
-        "t": 17.697,
-        "voiceDur": 1.534,
-        "end": 20.948
+        "voice": "Biological: germs, viruses",
+        "t": 17.009,
+        "voiceDur": 2.786,
+        "end": 21.077
       },
       {
         "id": "recap",
@@ -845,8 +888,8 @@
         "card": "Three help. One harms.",
         "accent": "One harms.",
         "voice": "Three help. One harms.",
-        "t": 20.948,
-        "voiceDur": 1.96,
+        "t": 21.077,
+        "voiceDur": 1.989,
         "end": 25.0
       }
     ],
@@ -881,7 +924,13 @@
         "dt": 1.5,
         "kind": "low"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.9,
+      "music_under_voice_db": -35.7,
+      "music_in_gaps_db": -27.8,
+      "sfx_peak_db": -12.4
+    }
   },
   "same-cord": {
     "title": "Same Cord",
@@ -896,7 +945,7 @@
         "voice": "Who holds the agent's cord?",
         "t": 0.0,
         "voiceDur": 1.749,
-        "end": 4.133
+        "end": 4.12
       },
       {
         "id": "meaning",
@@ -905,9 +954,9 @@
         "card": "An agent works for someone",
         "accent": "for someone",
         "voice": "An agent works for someone",
-        "t": 4.133,
+        "t": 4.12,
         "voiceDur": 1.766,
-        "end": 8.017
+        "end": 7.99
       },
       {
         "id": "sole",
@@ -916,9 +965,9 @@
         "card": "Sole agent: one holder",
         "accent": "one holder",
         "voice": "Sole agent: one holder",
-        "t": 8.017,
+        "t": 7.99,
         "voiceDur": 2.086,
-        "end": 12.028
+        "end": 11.987
       },
       {
         "id": "change",
@@ -927,9 +976,9 @@
         "card": "Change agent: pushes change",
         "accent": "pushes change",
         "voice": "Change agent: pushes change",
-        "t": 12.028,
+        "t": 11.987,
         "voiceDur": 2.308,
-        "end": 16.372
+        "end": 16.316
       },
       {
         "id": "chaos",
@@ -938,9 +987,9 @@
         "card": "Agent of chaos: nobody",
         "accent": "nobody",
         "voice": "Agent of chaos: nobody",
-        "t": 16.372,
-        "voiceDur": 2.041,
-        "end": 20.317
+        "t": 16.316,
+        "voiceDur": 2.097,
+        "end": 20.33
       },
       {
         "id": "recap",
@@ -949,7 +998,7 @@
         "card": "Look for the hand",
         "accent": "hand",
         "voice": "Look for the hand",
-        "t": 20.317,
+        "t": 20.33,
         "voiceDur": 1.023,
         "end": 25.0
       }
@@ -995,6 +1044,12 @@
         "dt": 0.8,
         "kind": "clunk"
       }
-    ]
+    ],
+    "levels": {
+      "voice_rms_db": -16.4,
+      "music_under_voice_db": -34.3,
+      "music_in_gaps_db": -29.1,
+      "sfx_peak_db": -12.3
+    }
   }
 }

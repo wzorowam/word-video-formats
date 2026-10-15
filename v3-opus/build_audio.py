@@ -34,7 +34,7 @@ MAX_TOTAL = 30.0
 VOICE_PEAK = 0.80
 MUSIC_RMS = 0.050
 DUCK_DB = -11.0
-SFX_GAIN = 0.20
+SFX_GAIN = 0.24
 
 
 def run(args: list[str], stdin: bytes | None = None) -> None:
@@ -77,6 +77,26 @@ def tts(text: str, clip: str, lid: str) -> np.ndarray:
     )
     v = read_wav(out)
     return v * (VOICE_PEAK / max(1e-6, np.abs(v).max()))
+
+
+def loudnorm(src: Path, dest: Path, target: float = -14.0, tp: float = -1.5) -> dict:
+    """Two-pass EBU R128 normalisation with ffmpeg loudnorm (linear mode)."""
+    probe = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-i", str(src), "-af", f"loudnorm=I={target}:TP={tp}:LRA=11:print_format=json", "-f", "null", "-"],
+        capture_output=True, text=True, check=True,
+    ).stderr
+    m = json.loads(probe[probe.rindex("{"): probe.rindex("}") + 1])
+    run(
+        ["ffmpeg", "-y", "-i", str(src), "-af",
+         f"loudnorm=I={target}:TP={tp}:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
+         f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true",
+         "-ar", str(SR), "-c:a", "pcm_s16le", str(dest)]
+    )
+    return m
+
+
+def db(x: np.ndarray) -> float:
+    return round(float(20 * np.log10(max(1e-9, np.sqrt(np.mean(x ** 2))))), 1)
 
 
 def check_cards(clip: str, lines: list[dict]) -> None:
@@ -131,7 +151,15 @@ def tone(freq: float | np.ndarray, n: int) -> np.ndarray:
     return np.sin(2 * np.pi * np.cumsum(f) / SR).astype(np.float32)
 
 
+SFX_LEVEL = {"tick": 0.6, "rumble": 0.8, "low": 0.9, "keys": 0.8, "ratchet": 0.7}
+
+
 def sfx(kind: str, seed: int) -> np.ndarray:
+    x = _sfx(kind, seed)
+    return x / max(1e-6, np.abs(x).max()) * SFX_LEVEL.get(kind, 1.0)
+
+
+def _sfx(kind: str, seed: int) -> np.ndarray:
     def secs(s: float) -> int:
         return int(s * SR)
 
@@ -280,7 +308,7 @@ def main() -> None:
 
         vo = np.zeros(n, dtype=np.float32)
         for line, v in zip(lines, voices):
-            place(vo, v, max(line["t"], 0.15))
+            place(vo, v, max(line["t"] + 0.12, 0.15))
 
         fx = np.zeros(n, dtype=np.float32)
         starts = {l["id"]: l["t"] for l in lines}
@@ -294,11 +322,20 @@ def main() -> None:
         mixr = vo + fx * 1.05 + bed * 0.96
         stereo = np.stack([mixl, mixr], axis=1)
         stereo = np.tanh(stereo * 1.1) / np.tanh(1.1)
-        write_wav(PUBLIC / f"{clip}.wav", stereo)
+        premix = PARTS / f"{clip}-premix.wav"
+        write_wav(premix, stereo)
+        loudnorm(premix, PUBLIC / f"{clip}.wav")
+        speaking = duck_gain(vo) < 10 ** (DUCK_DB / 2 / 20)
+        levels = {
+            "voice_rms_db": db(vo[speaking]),
+            "music_under_voice_db": db(bed[speaking]),
+            "music_in_gaps_db": db(bed[~speaking]) if (~speaking).any() else None,
+            "sfx_peak_db": round(float(20 * np.log10(max(1e-9, np.abs(fx).max()))), 1),
+        }
 
-        timeline[clip] = {"title": spec["title"], "duration": total, "lines": lines, "sfx": spec.get("sfx", [])}
+        timeline[clip] = {"title": spec["title"], "duration": total, "lines": lines, "sfx": spec.get("sfx", []), "levels": levels}
         report[clip] = total
-        print(f"{clip}: {total:.2f}s, {len(lines)} cards, {len(spec.get('sfx', []))} motion sfx")
+        print(f"{clip}: {total:.2f}s, {len(lines)} cards, {len(spec.get('sfx', []))} motion sfx, {levels}")
 
     timeline_path.write_text(json.dumps(timeline, indent=2) + "\n")
 
