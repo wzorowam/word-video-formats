@@ -1,0 +1,189 @@
+{
+  "ai-agent": {
+    "cues": [
+      [40, "software that can act"],
+      [135, "it looks around"],
+      [230, "then uses a tool"],
+      [330, "it reads the clock"],
+      [470, "then answers you"],
+      [615, "look, tool, look again"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "software that can act"],
+      [135, "it looks around"],
+      [230, "then uses a tool"],
+      [330, "it reads the clock"],
+      [470, "then answers you"],
+      [615, "look, tool, look again"]
+    ],
+    "sfx": [
+      [135, "whoosh"],
+      [230, "tick"],
+      [330, "tick"],
+      [470, "spring"],
+      [615, "whoosh"]
+    ]
+  },
+  "secret-agent": {
+    "cues": [
+      [40, "someone working in secret"],
+      [135, "sent to work unseen"],
+      [330, "she hides a note"],
+      [615, "a secret agent hides"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "someone working in secret"],
+      [135, "sent to work unseen"],
+      [330, "she hides a note"],
+      [615, "a secret agent hides"]
+    ],
+    "sfx": [
+      [135, "whoosh"],
+      [330, "slide"],
+      [615, "thud"]
+    ]
+  },
+  "talent-agent": {
+    "cues": [
+      [40, "someone for a performer"],
+      [135, "represents a performer"],
+      [330, "books the singer a gig"],
+      [615, "that performer has an agent"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "someone for a performer"],
+      [135, "represents a performer"],
+      [330, "books the singer a gig"],
+      [615, "that performer has an agent"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "whoosh"],
+      [400, "spring"]
+    ]
+  },
+  "chemical-agent": {
+    "cues": [
+      [40, "this one is a substance"],
+      [135, "a substance that acts"],
+      [330, "bleach lifts the stain"],
+      [615, "the bleach is the agent"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "this one is a substance"],
+      [135, "a substance that acts"],
+      [330, "bleach lifts the stain"],
+      [615, "the bleach is the agent"]
+    ],
+    "sfx": [
+      [330, "drip"],
+      [370, "tick"],
+      [615, "spring"]
+    ]
+  },
+  "free-agent": {
+    "cues": [
+      [40, "a player between clubs"],
+      [135, "no club holds the deal"],
+      [330, "she can sign anywhere"],
+      [615, "free, and still paid"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "a player between clubs"],
+      [135, "no club holds the deal"],
+      [330, "she can sign anywhere"],
+      [615, "free, and still paid"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "whoosh"],
+      [615, "tick"]
+    ]
+  },
+  "change-agent": {
+    "cues": [
+      [40, "someone inside a group"],
+      [135, "shifts how a group works"],
+      [330, "the group tries the shift"],
+      [615, "an agent of change"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "someone inside a group"],
+      [135, "shifts how a group works"],
+      [330, "the group tries the shift"],
+      [615, "an agent of change"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "whoosh"],
+      [348, "spring"],
+      [366, "spring"]
+    ]
+  },
+  "grammatical-agent": {
+    "cues": [
+      [40, "a role in a sentence"],
+      [135, "the doer of the verb"],
+      [330, "the dog chased the ball"],
+      [615, "the dog is the doer"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "a role in a sentence"],
+      [135, "the doer of the verb"],
+      [330, "the dog chased the ball"],
+      [615, "the dog is the doer"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "whoosh"],
+      [420, "tick"]
+    ]
+  },
+  "someones-agent": {
+    "cues": [
+      [40, "standing in for someone"],
+      [135, "does the job for them"],
+      [330, "Jo signs for Mira"],
+      [615, "Jo is Mira's agent"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "standing in for someone"],
+      [135, "does the job for them"],
+      [330, "Jo signs for Mira"],
+      [615, "Jo is Mira's agent"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "tick"],
+      [430, "spring"]
+    ]
+  },
+  "service-agent": {
+    "cues": [
+      [40, "the person on the phone"],
+      [135, "helps customers by phone"],
+      [330, "she finds the lost order"],
+      [615, "a customer service agent"]
+    ],
+    "voice": [
+      [0, "agent"],
+      [40, "the person on the phone"],
+      [135, "helps customers by phone"],
+      [330, "she finds the lost order"],
+      [615, "a customer service agent"]
+    ],
+    "sfx": [
+      [135, "spring"],
+      [330, "whoosh"],
+      [615, "tick"]
+    ]
+  }
+}
