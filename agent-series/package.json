@@ -1,0 +1,22 @@
+{
+  "name": "word-video-formats-agent-series",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nine vertical clips, one meaning of agent each.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "audio": "python3 audio/generate.py",
+    "render": "bash render-all.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.6.3"
+  }
+}
