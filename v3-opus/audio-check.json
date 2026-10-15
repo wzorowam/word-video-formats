@@ -1,0 +1,383 @@
+{
+  "word-tree": {
+    "score": 0.86,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Agent: one word, three branches",
+        "heard": "Agent,  one  word,  three  branches.  The",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "The one doing it",
+        "heard": "one  doing  it.",
+        "match": 0.75
+      },
+      {
+        "id": "bleach",
+        "card": "Bleaching agent whitens cloth",
+        "heard": "Bleaching  agent  whitens  cloth\u2580  Secret",
+        "match": 1.0
+      },
+      {
+        "id": "secret",
+        "card": "Secret agent works unseen",
+        "heard": "agent  works  unseen.",
+        "match": 0.75
+      },
+      {
+        "id": "free",
+        "card": "Free agent joins any team",
+        "heard": "Free  agent  joins  any  team.",
+        "match": 1.0
+      },
+      {
+        "id": "recap",
+        "card": "Bleach, spy, player: doers",
+        "heard": "Bleaching  spy  player,  doers.  Agent,",
+        "match": 0.75
+      },
+      {
+        "id": "final",
+        "card": "Agent: the one doing it",
+        "heard": "the  one  doing  it.",
+        "match": 0.8
+      }
+    ]
+  },
+  "clamp": {
+    "score": 0.96,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Agent: one word, many meanings",
+        "heard": "Agent,  one  word,  many  meanings.  The",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "The sentence is the lock",
+        "heard": "The  sentence  is  the  lock.",
+        "match": 1.0
+      },
+      {
+        "id": "novel",
+        "card": "For a novel: a person",
+        "heard": "For  novel,  a  person.",
+        "match": 1.0
+      },
+      {
+        "id": "storm",
+        "card": "In a storm: a force",
+        "heard": "In  a  storm,  a  force````  Let",
+        "match": 1.0
+      },
+      {
+        "id": "letgo",
+        "card": "Let go: it opens",
+        "heard": "go,  it  opens.  The",
+        "match": 0.75
+      },
+      {
+        "id": "final",
+        "card": "The sentence is the lock",
+        "heard": "The  sentence  is  the  lock.",
+        "match": 1.0
+      }
+    ]
+  },
+  "passing-hand": {
+    "score": 0.96,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Agent, or agency?",
+        "heard": "Agent  or  agency?  An",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "An agent acts for you",
+        "heard": "An  agent  acts  for  you?  Their",
+        "match": 1.0
+      },
+      {
+        "id": "ticket",
+        "card": "Their hand carries the job",
+        "heard": "Their  hand  carries  the  job.",
+        "match": 1.0
+      },
+      {
+        "id": "booked",
+        "card": "Your agent booked it",
+        "heard": "Your  agent  booked  it.",
+        "match": 1.0
+      },
+      {
+        "id": "room",
+        "card": "The agency is the room",
+        "heard": "The  agency  is  the  room.",
+        "match": 1.0
+      },
+      {
+        "id": "recap",
+        "card": "Hand: agent. Room: agency.",
+        "heard": "Can't  agent.  Room,  agency.  Agent  or  agency.",
+        "match": 0.75
+      }
+    ]
+  },
+  "alt-screen": {
+    "score": 0.92,
+    "lines": [
+      {
+        "id": "word",
+        "card": "What does agent start?",
+        "heard": "What  does  Agent  start?",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "Look, use tools, look again",
+        "heard": "Look.  Use  tools.  Look  again.  User",
+        "match": 1.0
+      },
+      {
+        "id": "header",
+        "card": "User-Agent is a label",
+        "heard": "agent  is  a  label.",
+        "match": 0.8
+      },
+      {
+        "id": "chat",
+        "card": "A chatbot answers once",
+        "heard": "The  chatbot  answers  once.",
+        "match": 0.75
+      },
+      {
+        "id": "keeps",
+        "card": "The agent keeps looking",
+        "heard": "The  agent  keeps  looking.  Look",
+        "match": 1.0
+      },
+      {
+        "id": "recap",
+        "card": "Look, tool, look again",
+        "heard": "tool.  Look  again.",
+        "match": 1.0
+      }
+    ]
+  },
+  "shove-test": {
+    "score": 0.8,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Who is the agent?",
+        "heard": "Who  is  the  agent?  Where",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "Where the push starts",
+        "heard": "the  push  starts?",
+        "match": 0.75
+      },
+      {
+        "id": "shove",
+        "card": "Maya shoves the door",
+        "heard": "Myer  shelves  the  door.  The",
+        "match": 0.5
+      },
+      {
+        "id": "door",
+        "card": "The door only moves",
+        "heard": "door  only  moves.",
+        "match": 0.75
+      },
+      {
+        "id": "hand",
+        "card": "It starts in her hand",
+        "heard": "It  starts  in  her  hand.  Not",
+        "match": 1.0
+      },
+      {
+        "id": "recap",
+        "card": "Not the thing that moves",
+        "heard": "the  thing  that  moves.",
+        "match": 0.8
+      }
+    ]
+  },
+  "time-machine": {
+    "score": 0.73,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Agent: which meaning came first?",
+        "heard": "Agent,  which  meaning  came  first.  Latin",
+        "match": 1.0
+      },
+      {
+        "id": "latin",
+        "card": "Latin agere: to do",
+        "heard": "archery,  to  do.",
+        "match": 0.5
+      },
+      {
+        "id": "doer",
+        "card": "Before 1500: a doer",
+        "heard": "Before  1500,  a  doer.",
+        "match": 0.6
+      },
+      {
+        "id": "force",
+        "card": "1550s: a force",
+        "heard": "The  1550s,  a  force.",
+        "match": 0.6
+      },
+      {
+        "id": "deputy",
+        "card": "1590s: someone acting for you",
+        "heard": "The  1590s,  someone  acting  for  you.",
+        "match": 0.71
+      },
+      {
+        "id": "recap",
+        "card": "The doer came first",
+        "heard": "The  doer  came  first.",
+        "match": 1.0
+      }
+    ]
+  },
+  "under-the-label": {
+    "score": 0.88,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Agent: what hides under here?",
+        "heard": "Agent,  what  hides  under  here.  You",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "You can count agents",
+        "heard": "You  can  count  agents.  Peel",
+        "match": 1.0
+      },
+      {
+        "id": "peel",
+        "card": "Peel the tape back",
+        "heard": "Peel  the  tape  back",
+        "match": 1.0
+      },
+      {
+        "id": "an",
+        "card": "Before a vowel: an",
+        "heard": "before  a  vowel,  and  one",
+        "match": 0.75
+      },
+      {
+        "id": "three",
+        "card": "One agent, three agents",
+        "heard": "agent,  three  agents  and",
+        "match": 0.75
+      },
+      {
+        "id": "recap",
+        "card": "An agent. Three agents.",
+        "heard": "and  agent,  three  agents.",
+        "match": 0.75
+      }
+    ]
+  },
+  "hidden-uses": {
+    "score": 0.77,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Which agent makes you sick?",
+        "heard": "which  agent  makes  you  sick,  a",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "A substance doing a job",
+        "heard": "substance  doing  a  job,  wetting",
+        "match": 1.0
+      },
+      {
+        "id": "wet",
+        "card": "Wetting: the drop spreads",
+        "heard": "the  drop  spreads,",
+        "match": 0.75
+      },
+      {
+        "id": "mix",
+        "card": "Emulsifying: oil meets water",
+        "heard": "emulsifying  oil  meets  water,  thickening",
+        "match": 1.0
+      },
+      {
+        "id": "thick",
+        "card": "Thickening: the sauce thickens",
+        "heard": "the  source  thickens,",
+        "match": 0.5
+      },
+      {
+        "id": "germ",
+        "card": "Biological: a germ",
+        "heard": "biological,  the  germ,  three",
+        "match": 0.67
+      },
+      {
+        "id": "recap",
+        "card": "Three help. One harms.",
+        "heard": "health,  one  harms.",
+        "match": 0.5
+      }
+    ]
+  },
+  "same-cord": {
+    "score": 0.96,
+    "lines": [
+      {
+        "id": "word",
+        "card": "Who holds the agent's cord?",
+        "heard": "who  holds  the  agent's  cord.",
+        "match": 1.0
+      },
+      {
+        "id": "meaning",
+        "card": "An agent works for someone",
+        "heard": "An  agent  works  for  someone,",
+        "match": 1.0
+      },
+      {
+        "id": "sole",
+        "card": "Sole agent: one holder",
+        "heard": "sole  agent,  one  holder,",
+        "match": 1.0
+      },
+      {
+        "id": "change",
+        "card": "Change agent: pushes change",
+        "heard": "change  agent,  pushes  change,  agent",
+        "match": 1.0
+      },
+      {
+        "id": "chaos",
+        "card": "Agent of chaos: nobody",
+        "heard": "of  chaos,  nobody.",
+        "match": 0.75
+      },
+      {
+        "id": "recap",
+        "card": "Look for the hand",
+        "heard": "Look  for  the  hand.",
+        "match": 1.0
+      }
+    ]
+  }
+}
